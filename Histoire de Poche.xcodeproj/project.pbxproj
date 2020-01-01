@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CC7B53E0A9C996E3740B07 /* Pods_Histoire_de_Poche.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB07332C9859FCD16773E71 /* Pods_Histoire_de_Poche.framework */; };
+		5B23AF782199D0FD008619AD /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23AF772199D0FD008619AD /* AuthorViewController.swift */; };
+		5BFD7B2E21A6E7DE0051FCC7 /* FollowedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD7B2D21A6E7DE0051FCC7 /* FollowedViewController.swift */; };
+		7C1557CE2073E5FF005BF41F /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1557CD2073E5FF005BF41F /* ProfilViewController.swift */; };
+		7C2C6AD220336B9800CAB979 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C6AD120336B9800CAB979 /* FavViewController.swift */; };
+		7C32D93C2016571000AF0C21 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9322016570400AF0C21 /* OpenSans-Light.ttf */; };
+		7C32D93D2016571000AF0C21 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9332016570500AF0C21 /* OpenSans-Bold.ttf */; };
+		7C32D93E2016571000AF0C21 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9342016570600AF0C21 /* OpenSans-LightItalic.ttf */; };
+		7C32D93F2016571000AF0C21 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9352016570800AF0C21 /* OpenSans-Italic.ttf */; };
+		7C32D9402016571000AF0C21 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9362016570900AF0C21 /* OpenSans-ExtraBold.ttf */; };
+		7C32D9412016571000AF0C21 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9372016570A00AF0C21 /* OpenSans-Regular.ttf */; };
+		7C32D9422016571000AF0C21 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9382016570B00AF0C21 /* OpenSans-SemiBoldItalic.ttf */; };
+		7C32D9432016571000AF0C21 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D9392016570D00AF0C21 /* OpenSans-ExtraBoldItalic.ttf */; };
+		7C32D9442016571000AF0C21 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D93A2016570E00AF0C21 /* OpenSans-SemiBold.ttf */; };
+		7C32D9452016571000AF0C21 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C32D93B2016570F00AF0C21 /* OpenSans-BoldItalic.ttf */; };
+		7C39052620AAD2FE0014B843 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39052520AAD2FE0014B843 /* PostsViewController.swift */; };
+		7C3995141E8A9F1600388D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3995131E8A9F1600388D8C /* AppDelegate.swift */; };
+		7C3995161E8A9F1600388D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3995151E8A9F1600388D8C /* ViewController.swift */; };
+		7C3995191E8A9F1600388D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3995171E8A9F1600388D8C /* Main.storyboard */; };
+		7C39951B1E8A9F1600388D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C39951A1E8A9F1600388D8C /* Assets.xcassets */; };
+		7C39951E1E8A9F1600388D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C39951C1E8A9F1600388D8C /* LaunchScreen.storyboard */; };
+		7C3995271E8AA0F600388D8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3995261E8AA0F600388D8C /* MapKit.framework */; };
+		7C4DB67A2032087D0021FC33 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DB6792032087D0021FC33 /* HistoryViewController.swift */; };
+		7C4E5A991E8AE6E90062E105 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E5A981E8AE6E90062E105 /* registerViewController.swift */; };
+		7C5141C61E90509900322978 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5141C51E90509900322978 /* choiceViewController.swift */; };
+		7C60A95720AF283E00C0C6DA /* EditArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60A95620AF283E00C0C6DA /* EditArticleViewController.swift */; };
+		7C63D5DE20586D8900418796 /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C63D5DB20586D8900418796 /* CustomCalloutView.xib */; };
+		7C63D5DF20586D8900418796 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63D5DC20586D8900418796 /* AnnotationView.swift */; };
+		7C63D5E020586D8900418796 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63D5DD20586D8900418796 /* CustomCalloutView.swift */; };
+		7C63D5E220586FA600418796 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63D5E120586FA600418796 /* MapView.swift */; };
+		7C8BF7D42029499500D741E5 /* ZoomArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BF7D32029499500D741E5 /* ZoomArticleViewController.swift */; };
+		7C96D1BD1E905F8D00AD325E /* Fonctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96D1BC1E905F8D00AD325E /* Fonctions.swift */; };
+		7CBE46281E8BDFCF0020CA26 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE46271E8BDFCF0020CA26 /* loginViewController.swift */; };
+		7CBE462A1E8BE1650020CA26 /* getPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE46291E8BE1650020CA26 /* getPasswordViewController.swift */; };
+		7CCFC356209A11AC00A643AC /* NewArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFC355209A11AC00A643AC /* NewArticle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E9FD93584442220BF8782F6 /* Pods-Histoire de Poche.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoire de Poche.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Histoire de Poche/Pods-Histoire de Poche.debug.xcconfig"; sourceTree = "<group>"; };
+		5B23AF772199D0FD008619AD /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		5BFD7B2D21A6E7DE0051FCC7 /* FollowedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowedViewController.swift; sourceTree = "<group>"; };
+		7C1557CD2073E5FF005BF41F /* ProfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		7C2C6AD120336B9800CAB979 /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		7C32D9322016570400AF0C21 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		7C32D9332016570500AF0C21 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		7C32D9342016570600AF0C21 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		7C32D9352016570800AF0C21 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		7C32D9362016570900AF0C21 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7C32D9372016570A00AF0C21 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7C32D9382016570B00AF0C21 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7C32D9392016570D00AF0C21 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7C32D93A2016570E00AF0C21 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7C32D93B2016570F00AF0C21 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7C39052520AAD2FE0014B843 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		7C3995101E8A9F1600388D8C /* Histoire de Poche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Histoire de Poche.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3995131E8A9F1600388D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C3995151E8A9F1600388D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C3995181E8A9F1600388D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C39951A1E8A9F1600388D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C39951D1E8A9F1600388D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C39951F1E8A9F1600388D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3995261E8AA0F600388D8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7C4DB6792032087D0021FC33 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		7C4E5A981E8AE6E90062E105 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		7C5141C51E90509900322978 /* choiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = choiceViewController.swift; sourceTree = "<group>"; };
+		7C60A95620AF283E00C0C6DA /* EditArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditArticleViewController.swift; sourceTree = "<group>"; };
+		7C63D5DB20586D8900418796 /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		7C63D5DC20586D8900418796 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		7C63D5DD20586D8900418796 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		7C63D5E120586FA600418796 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7C8BF7D32029499500D741E5 /* ZoomArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomArticleViewController.swift; sourceTree = "<group>"; };
+		7C96D1BC1E905F8D00AD325E /* Fonctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonctions.swift; sourceTree = "<group>"; };
+		7CBE46271E8BDFCF0020CA26 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		7CBE46291E8BE1650020CA26 /* getPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getPasswordViewController.swift; sourceTree = "<group>"; };
+		7CCFC355209A11AC00A643AC /* NewArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArticle.swift; sourceTree = "<group>"; };
+		8377F904FB0C045FD1E424F0 /* Pods-Histoire de Poche.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histoire de Poche.release.xcconfig"; path = "Pods/Target Support Files/Pods-Histoire de Poche/Pods-Histoire de Poche.release.xcconfig"; sourceTree = "<group>"; };
+		EFB07332C9859FCD16773E71 /* Pods_Histoire_de_Poche.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Histoire_de_Poche.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C39950D1E8A9F1600388D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3995271E8AA0F600388D8C /* MapKit.framework in Frameworks */,
+				06CC7B53E0A9C996E3740B07 /* Pods_Histoire_de_Poche.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C65B833D72A958C58098BBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FD93584442220BF8782F6 /* Pods-Histoire de Poche.debug.xcconfig */,
+				8377F904FB0C045FD1E424F0 /* Pods-Histoire de Poche.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C1557CF2073E62F005BF41F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7C5141C51E90509900322978 /* choiceViewController.swift */,
+				7CBE46271E8BDFCF0020CA26 /* loginViewController.swift */,
+				7C4E5A981E8AE6E90062E105 /* registerViewController.swift */,
+				7CBE46291E8BE1650020CA26 /* getPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7C3995071E8A9F1600388D8C = {
+			isa = PBXGroup;
+			children = (
+				7C3995121E8A9F1600388D8C /* Histoire de Poche */,
+				7C3995111E8A9F1600388D8C /* Products */,
+				7C3995251E8AA0F600388D8C /* Frameworks */,
+				1C65B833D72A958C58098BBF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7C3995111E8A9F1600388D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C3995101E8A9F1600388D8C /* Histoire de Poche.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C3995121E8A9F1600388D8C /* Histoire de Poche */ = {
+			isa = PBXGroup;
+			children = (
+				7C7914B3200E402A0092244B /* Ressources */,
+				7C3995131E8A9F1600388D8C /* AppDelegate.swift */,
+				7C63D5DA20586D8900418796 /* CustomCalloutView */,
+				7C39951A1E8A9F1600388D8C /* Assets.xcassets */,
+				7C39951C1E8A9F1600388D8C /* LaunchScreen.storyboard */,
+				7C3995171E8A9F1600388D8C /* Main.storyboard */,
+				7C39951F1E8A9F1600388D8C /* Info.plist */,
+				7C3995151E8A9F1600388D8C /* ViewController.swift */,
+				7C63D5E120586FA600418796 /* MapView.swift */,
+				7C1557CD2073E5FF005BF41F /* ProfilViewController.swift */,
+				7CCFC355209A11AC00A643AC /* NewArticle.swift */,
+				7C60A95620AF283E00C0C6DA /* EditArticleViewController.swift */,
+				7C8BF7D32029499500D741E5 /* ZoomArticleViewController.swift */,
+				7C4DB6792032087D0021FC33 /* HistoryViewController.swift */,
+				7C2C6AD120336B9800CAB979 /* FavViewController.swift */,
+				5BFD7B2D21A6E7DE0051FCC7 /* FollowedViewController.swift */,
+				5B23AF772199D0FD008619AD /* AuthorViewController.swift */,
+				7C39052520AAD2FE0014B843 /* PostsViewController.swift */,
+				7C1557CF2073E62F005BF41F /* Login */,
+				7C96D1BC1E905F8D00AD325E /* Fonctions.swift */,
+			);
+			path = "Histoire de Poche";
+			sourceTree = "<group>";
+		};
+		7C3995251E8AA0F600388D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C3995261E8AA0F600388D8C /* MapKit.framework */,
+				EFB07332C9859FCD16773E71 /* Pods_Histoire_de_Poche.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C63D5DA20586D8900418796 /* CustomCalloutView */ = {
+			isa = PBXGroup;
+			children = (
+				7C63D5DB20586D8900418796 /* CustomCalloutView.xib */,
+				7C63D5DC20586D8900418796 /* AnnotationView.swift */,
+				7C63D5DD20586D8900418796 /* CustomCalloutView.swift */,
+			);
+			path = CustomCalloutView;
+			sourceTree = "<group>";
+		};
+		7C7914B3200E402A0092244B /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				7C32D9332016570500AF0C21 /* OpenSans-Bold.ttf */,
+				7C32D93B2016570F00AF0C21 /* OpenSans-BoldItalic.ttf */,
+				7C32D9362016570900AF0C21 /* OpenSans-ExtraBold.ttf */,
+				7C32D9392016570D00AF0C21 /* OpenSans-ExtraBoldItalic.ttf */,
+				7C32D9352016570800AF0C21 /* OpenSans-Italic.ttf */,
+				7C32D9322016570400AF0C21 /* OpenSans-Light.ttf */,
+				7C32D9342016570600AF0C21 /* OpenSans-LightItalic.ttf */,
+				7C32D9372016570A00AF0C21 /* OpenSans-Regular.ttf */,
+				7C32D93A2016570E00AF0C21 /* OpenSans-SemiBold.ttf */,
+				7C32D9382016570B00AF0C21 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C39950F1E8A9F1600388D8C /* Histoire de Poche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3995221E8A9F1600388D8C /* Build configuration list for PBXNativeTarget "Histoire de Poche" */;
+			buildPhases = (
+				412DB1E00899E688A2E0220D /* [CP] Check Pods Manifest.lock */,
+				7C39950C1E8A9F1600388D8C /* Sources */,
+				7C39950D1E8A9F1600388D8C /* Frameworks */,
+				7C39950E1E8A9F1600388D8C /* Resources */,
+				B6A5F24612773207E2753ED0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Histoire de Poche";
+			productName = "Histoire de Poche";
+			productReference = 7C3995101E8A9F1600388D8C /* Histoire de Poche.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C3995081E8A9F1600388D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "OLIVETTI Octave";
+				TargetAttributes = {
+					7C39950F1E8A9F1600388D8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 74Q47J4SF4;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C39950B1E8A9F1600388D8C /* Build configuration list for PBXProject "Histoire de Poche" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C3995071E8A9F1600388D8C;
+			productRefGroup = 7C3995111E8A9F1600388D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C39950F1E8A9F1600388D8C /* Histoire de Poche */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C39950E1E8A9F1600388D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C39951E1E8A9F1600388D8C /* LaunchScreen.storyboard in Resources */,
+				7C39951B1E8A9F1600388D8C /* Assets.xcassets in Resources */,
+				7C32D93E2016571000AF0C21 /* OpenSans-LightItalic.ttf in Resources */,
+				7C32D9402016571000AF0C21 /* OpenSans-ExtraBold.ttf in Resources */,
+				7C32D9442016571000AF0C21 /* OpenSans-SemiBold.ttf in Resources */,
+				7C32D9422016571000AF0C21 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				7C32D93C2016571000AF0C21 /* OpenSans-Light.ttf in Resources */,
+				7C32D93D2016571000AF0C21 /* OpenSans-Bold.ttf in Resources */,
+				7C32D9452016571000AF0C21 /* OpenSans-BoldItalic.ttf in Resources */,
+				7C3995191E8A9F1600388D8C /* Main.storyboard in Resources */,
+				7C32D9412016571000AF0C21 /* OpenSans-Regular.ttf in Resources */,
+				7C32D9432016571000AF0C21 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				7C63D5DE20586D8900418796 /* CustomCalloutView.xib in Resources */,
+				7C32D93F2016571000AF0C21 /* OpenSans-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		412DB1E00899E688A2E0220D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Histoire de Poche-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A5F24612773207E2753ED0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Histoire de Poche/Pods-Histoire de Poche-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Histoire de Poche/Pods-Histoire de Poche-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C39950C1E8A9F1600388D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C63D5E020586D8900418796 /* CustomCalloutView.swift in Sources */,
+				5BFD7B2E21A6E7DE0051FCC7 /* FollowedViewController.swift in Sources */,
+				7C5141C61E90509900322978 /* choiceViewController.swift in Sources */,
+				7C1557CE2073E5FF005BF41F /* ProfilViewController.swift in Sources */,
+				7CBE46281E8BDFCF0020CA26 /* loginViewController.swift in Sources */,
+				7C8BF7D42029499500D741E5 /* ZoomArticleViewController.swift in Sources */,
+				7C63D5E220586FA600418796 /* MapView.swift in Sources */,
+				7CCFC356209A11AC00A643AC /* NewArticle.swift in Sources */,
+				7C4E5A991E8AE6E90062E105 /* registerViewController.swift in Sources */,
+				7CBE462A1E8BE1650020CA26 /* getPasswordViewController.swift in Sources */,
+				7C63D5DF20586D8900418796 /* AnnotationView.swift in Sources */,
+				7C3995161E8A9F1600388D8C /* ViewController.swift in Sources */,
+				7C60A95720AF283E00C0C6DA /* EditArticleViewController.swift in Sources */,
+				7C4DB67A2032087D0021FC33 /* HistoryViewController.swift in Sources */,
+				7C39052620AAD2FE0014B843 /* PostsViewController.swift in Sources */,
+				7C3995141E8A9F1600388D8C /* AppDelegate.swift in Sources */,
+				5B23AF782199D0FD008619AD /* AuthorViewController.swift in Sources */,
+				7C2C6AD220336B9800CAB979 /* FavViewController.swift in Sources */,
+				7C96D1BD1E905F8D00AD325E /* Fonctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C3995171E8A9F1600388D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C3995181E8A9F1600388D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C39951C1E8A9F1600388D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C39951D1E8A9F1600388D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C3995201E8A9F1600388D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3995211E8A9F1600388D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C3995231E8A9F1600388D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9FD93584442220BF8782F6 /* Pods-Histoire de Poche.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74Q47J4SF4;
+				INFOPLIST_FILE = "Histoire de Poche/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "histoire-de-poche.fr.Histoire-de-Poche";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7C3995241E8A9F1600388D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377F904FB0C045FD1E424F0 /* Pods-Histoire de Poche.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74Q47J4SF4;
+				INFOPLIST_FILE = "Histoire de Poche/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "histoire-de-poche.fr.Histoire-de-Poche";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C39950B1E8A9F1600388D8C /* Build configuration list for PBXProject "Histoire de Poche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3995201E8A9F1600388D8C /* Debug */,
+				7C3995211E8A9F1600388D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3995221E8A9F1600388D8C /* Build configuration list for PBXNativeTarget "Histoire de Poche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3995231E8A9F1600388D8C /* Debug */,
+				7C3995241E8A9F1600388D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C3995081E8A9F1600388D8C /* Project object */;
+}

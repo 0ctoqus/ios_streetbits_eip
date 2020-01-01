@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Kingfisher (4.10.1)
+  - SCLAlertView (0.8)
+  - TagListView (1.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Kingfisher (~> 4.0)
+  - SCLAlertView
+  - TagListView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - SCLAlertView
+    - TagListView
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  TagListView: 0c7e9c26b9aff858224ee6b155f5fcacd9e27c83
+
+PODFILE CHECKSUM: 9938b0d4f4b0e56c78652c30062acf7b1e150d2d
+
+COCOAPODS: 1.5.3
